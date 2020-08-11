@@ -1,7 +1,7 @@
 {
-  "name": "new-app",
-  "version": "1.0.5",
-  "description": "New application schema",
+  "name": "async-javascript",
+  "version": "1.0.0",
+  "description": "Async tools",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -29,22 +29,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unsegnor/new-app.git"
+    "url": "git+https://github.com/unsegnor/async-javascript.git"
   },
   "keywords": [
-    "New",
-    "app",
-    "test",
-    "BDD",
-    "gherkins",
-    "cucumber",
-    "CI",
-    "travis"
+    "async"
   ],
   "author": "Víctor Calatayud Asensio",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/unsegnor/new-app/issues"
+    "url": "https://github.com/unsegnor/async-javascript/issues"
   },
-  "homepage": "https://github.com/unsegnor/new-app#readme"
+  "homepage": "https://github.com/unsegnor/async-javascript#readme"
 }
