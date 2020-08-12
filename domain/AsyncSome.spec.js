@@ -27,7 +27,7 @@ describe('AsyncSome', function(){
 
             var items = [promise1, promise2, promise3]
 
-            var result = await asyncSome(items, async function(item){
+            await asyncSome(items, async function(item){
                 return await item()
             })
     

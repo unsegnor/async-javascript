@@ -27,7 +27,7 @@ describe('AsyncFind', function(){
 
             var items = [promise1, promise2, promise3]
 
-            var result = await asyncFind(items, async function(item){
+            await asyncFind(items, async function(item){
                 return await item()
             })
     
