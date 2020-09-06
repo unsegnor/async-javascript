@@ -20,6 +20,23 @@ describe('AsyncFind', function(){
         })
     })
 
+    it('must not return any items that evaluates the async function as false', async function(){
+        await asyncTest(async function(promise1, promise2, promise3){
+            promise1.resolvesWith(true)
+            promise2.resolvesWith(false)
+            promise3.resolvesWith(false)
+
+            var items = [promise1, promise2, promise3]
+
+            var result = await asyncFindAll(items, async function(item){
+                return await item()
+            })
+    
+            expect(result).not.to.contain(promise2)
+            expect(result).not.to.contain(promise3)
+        })
+    })
+
     it('must return empty array when the async function is false for every item', async function(){
         await asyncTest(async function(promise1, promise2, promise3){
             promise1.resolvesWith(false)
