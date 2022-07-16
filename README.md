@@ -1,19 +1,12 @@
-[![Build Status](https://travis-ci.org/unsegnor/new-app.svg?branch=master)](https://travis-ci.org/unsegnor/new-app)
 
-# new-app
-New application schema with:
-- Cucumber tests
-- Integration tests
-- Unit tests
-- Mutation testing
-- Ports and adapters templates
-- Travis yaml
-- Script for configuring npm deployment
+# Async-javascript
+Asynchronous methods:
+- some
+- find
+- findAll
 
 ## Getting started
-1. Rename the product name on package.json
-2. Set the repository, bugs and homepage urls
-3. Set the keywords, description and author
+Check the tests for examples of usage
 
 ## Seting npm deployment
 
