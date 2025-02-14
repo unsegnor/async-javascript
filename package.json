@@ -1,6 +1,6 @@
 {
   "name": "async-javascript",
-  "version": "1.3.89",
+  "version": "1.3.90",
   "description": "Async tools",
   "main": "index.js",
   "dependencies": {},
