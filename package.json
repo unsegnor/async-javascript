@@ -10,7 +10,7 @@
     "@stryker-mutator/mocha-framework": "^4.0.0",
     "@stryker-mutator/mocha-runner": "^9.0.0",
     "asynctdd": "^1.1.8",
-    "chai": "^5.0.0",
+    "chai": "^6.0.0",
     "cucumber": "^6.0.0",
     "mocha": "^11.0.0"
   },
